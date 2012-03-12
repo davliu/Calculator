@@ -51,9 +51,9 @@
         result = sin([self popOperand]);
     } else if ([operation isEqualToString:@"cos"]) {
         result = cos([self popOperand]);
-    } else if ([operation isEqualToString:@"tan"]) {
-        result = tan([self popOperand]);
-    } else if ([operation isEqualToString:@"pi"]) {
+    } else if ([operation isEqualToString:@"sqrt"]) {
+        result = sqrt([self popOperand]);
+    } else if ([operation isEqualToString:@"π"]) {
         result = M_PI;
     }
     [self pushOperand:result];
